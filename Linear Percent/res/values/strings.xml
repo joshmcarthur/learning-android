@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Linear Percent</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button1_text">Button One!</string>
+    <string name="button2_text">Button Two!</string>
+    <string name="button3_text">Button Three!</string>
+
+</resources>
