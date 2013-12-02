@@ -29,7 +29,7 @@ public class MainActivity extends ListActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, items));
+		setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_multiple_choice, items));
 		selection = (TextView)findViewById(R.id.selection);
 	}
 
