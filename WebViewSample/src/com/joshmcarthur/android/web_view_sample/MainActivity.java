@@ -14,6 +14,9 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		
 		browser = (WebView)findViewById(R.id.webkit);
+		// Javascript is disabled by default - uncomment this line if you
+		// want to enable it.
+		//browser.getSettings().setJavaScriptEnabled(true);
 		browser.loadUrl("http://joshmcarthur.com");
 	}
 
