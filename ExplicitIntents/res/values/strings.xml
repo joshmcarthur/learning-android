@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">"Explicit Intents "</string>
+
+    <string name="start_message">Start</string>
+
+    <string name="other_message">Other Activity</string>
+
+    <string name="other_activity_name">Other Activity</string>
+
+</resources>
