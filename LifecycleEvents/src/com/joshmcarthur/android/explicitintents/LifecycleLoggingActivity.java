@@ -1,12 +1,13 @@
 package com.joshmcarthur.android.explicitintents;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-public class LifecycleLoggingActivity extends Activity {
+import com.actionbarsherlock.app.SherlockFragmentActivity;
+
+public class LifecycleLoggingActivity extends SherlockFragmentActivity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
